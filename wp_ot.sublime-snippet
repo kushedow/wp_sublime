@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<a href="<?php the_permalink(); ?>">${1:Подробнее}</a>
+<?php echo ot_get_option("${1:var}"); ?>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wp:link</tabTrigger>
+	<tabTrigger>wp:ot</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

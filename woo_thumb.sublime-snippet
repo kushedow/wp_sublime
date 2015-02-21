@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<a href="<?php the_permalink(); ?>">${1:Подробнее}</a>
+<?php woocommerce_template_loop_product_thumbnail(); ?>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wp:link</tabTrigger>
+	<tabTrigger>woo:thumb</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
