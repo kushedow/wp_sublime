@@ -14,24 +14,24 @@
 
 ##Какие сниппеты в упаковке?
 
-wp:head     .....................................   wp_head()
-wp:footer     .................................   wp_footer()
+-wp:head     .....................................   wp_head()
+-wp:footer     .................................   wp_footer()
 
-wp:dir     .................  bloginfo("template_directory")/
-wp:name     ..............................   bloginfo('name')
-wp:desc   .........................   bloginfo('description')
+-wp:dir     .................  bloginfo("template_directory")/
+-wp:name     ..............................   bloginfo('name')
+-wp:desc   .........................   bloginfo('description')
 
-wp:title     ..................................   the_title()
-wp:content     ....................   the_post)+the_content()
-wp:content     ..................................   wp_footer
+-wp:title     ..................................   the_title()
+-wp:content     ....................   the_post)+the_content()
+-wp:content     ..................................   wp_footer
 
-wp:link     .................................   the_permalink
-wp:thumb    .................................   the_thumbnail
-wp:tags     .................................   the_tags
+-wp:link     .................................   the_permalink
+-wp:thumb    .................................   the_thumbnail
+-wp:tags     .................................   the_tags
 
-wp:menu     .................................   wp_nav_menu();
-wp:sidebar  .............................   dynamic_sidebar();
+-wp:menu     .................................   wp_nav_menu();
+-wp:sidebar  .............................   dynamic_sidebar();
 
-wp:hdr  ......................................   get_header();
-wp:ftr  ......................................   get_footer();
-wp:aside  ....................................   get_sidebar();
+-wp:hdr  ......................................   get_header();
+-wp:ftr  ......................................   get_footer();
+-wp:aside  ....................................   get_sidebar();
