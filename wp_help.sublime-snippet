@@ -1,0 +1,59 @@
+<snippet>
+	<content><![CDATA[
+/* ////////////////////////////////////////////////////// */ 
+			
+	/*	   	  Сниппеты и их расшифровка 	    	 */
+
+/* ////////////////////////////////////////////////////// */
+
+
+wp:head     .....................................   wp_head()
+wp:footer     .................................   wp_footer()
+
+wp:dir     .................  bloginfo("template_directory")/
+wp:name     ..............................   bloginfo('name')
+wp:desc   .........................   bloginfo('description')
+
+wp:title     ..................................   the_title()
+wp:content     ....................   the_post)+the_content()
+wp:content     ..................................   wp_footer
+
+wp:link     .................................   the_permalink
+wp:thumb    .................................   the_thumbnail
+wp:tags     .................................   the_tags
+
+wp:menu     .................................   wp_nav_menu();
+wp:sidebar  .............................   dynamic_sidebar();
+
+wp:hdr  ......................................   get_header();
+wp:ftr  ......................................   get_footer();
+wp:aside  ....................................   get_sidebar();
+
+
+/* ////////////////////////////////////////////////////// */ 
+			
+ /*  Плагины для установки через Multi Plugin Installer  */
+
+/* ////////////////////////////////////////////////////// */
+
+
+
+Which Template
+All in one Favicon
+CSS Plus
+Custom Post Type UI
+Cyr to Lat enhanced
+Duplicate Post
+Filenames to latin
+JS & CSS Script Optimizer
+Simple Image Sizes
+WordPress SEO
+WPide
+WP Smush.it
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp:help</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

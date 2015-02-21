@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+<!-- Выводим содержимое страницы -->
+<?php the_post(); ?>
+
+<h1><?php the_title(); ?></h1>
+
+<?php the_content(); ?>
+
+<?php the_field(""); ?>
+<!-- Конец контента страницы -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp:page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
